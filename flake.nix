@@ -27,6 +27,7 @@
           # Developer dependencies
           packages = with pkgs; [
             elixir-ls
+            inotify-tools
           ];
         };
       }
