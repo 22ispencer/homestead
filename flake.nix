@@ -28,6 +28,7 @@
           packages = with pkgs; [
             elixir-ls
             inotify-tools
+            tailwindcss-language-server
             litecli
           ];
         };
