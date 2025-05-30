@@ -18,7 +18,7 @@
         ];
         # Runtime dependencies
         buildInputs = with pkgs; [
-          elixir
+          beamMinimal27Packages.elixir
         ];
       in
       {
